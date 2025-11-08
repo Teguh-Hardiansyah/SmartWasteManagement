@@ -1,0 +1,22 @@
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .logo-text {
+      font-weight: 700;
+      font-size: 28px;
+      color: #ffffff;
+    }
+    .logo-text span {
+      color: #4caf50;
+    }
+    .form-input {
+      border: 1px solid #D1D5DB;
+      transition: all 0.3s;
+    }
+    .form-input:focus {
+      border-color: #4caf50;
+      box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.3);
+      outline: none;
+    }
+
+    

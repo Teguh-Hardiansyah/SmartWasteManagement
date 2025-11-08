@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartWaste Management</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+    <!-- Grup Kiri: Logo + Dropdown Bahasa -->
+    <div class="header-left-group">
+        <div class="logo"><img src="css/img/Group 15.png" alt="SmartWaste Logo"></div>
+        
+        <!-- (BARU) Dropdown Pilihan Bahasa -->
+        <div class="lang-switcher">
+            <select id="lang-select">
+                <option value="" disabled selected data-lang-key="select_lang">Pilih Bahasa</option>
+                <option value="id" data-lang-key="lang_id">Indonesia</option>
+                <option value="en" data-lang-key="lang_en">English</option>
+            </select>
+        </div>
+    </div>
+    
+    <!-- Navigasi Tengah -->
+    <nav>
+      <a href="#home" data-lang-key="nav_home">Home</a>
+      <a href="#about" data-lang-key="nav_about">Tentang Kami</a>
+      <a href="#feature" data-lang-key="nav_feature">Fitur</a>
+      <a href="#contact" data-lang-key="nav_contact">Kontak</a>
+    </nav>
+    
+    <!-- Tombol Kanan -->
+     <a href="loginPage/login.html"><button class="btn-signin" data-lang-key="signin_btn">Masuk</button></a>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <h1 data-lang-key="hero_title">Cara Mudah Mengelola Sampah Anda</h1>
+      <p data-lang-key="hero_desc">Kami membantu Anda memilah, mendaur ulang, dan mengelola sampah secara bertanggung jawab. Bergabunglah bersama kami menciptakan lingkungan yang lebih bersih, satu langkah demi satu langkah.</p>
+      <a href="#about"><button data-lang-key="hero_btn">Pelajari Lebih Lanjut</button></a>
+    </div>
+    <div class="hero-right">
+      <img src="css/img/pexels-julia-m-cameron-6995367.jpg" alt="img1">
+      <img src="css/img/pexels-markusspiske-2559749.jpg" alt="img2">
+      <img src="css/img/pexels-shvetsa-5029859.jpg" alt="img3">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-text">
+      <h4 data-lang-key="about_subtitle">TENTANG KAMI</h4>
+      <h1 data-lang-key="about_title">Ikut Berdampak Bersama Kami</h1>
+      <p data-lang-key="about_desc">Kami percaya tindakan kecil sehari-hari dapat membawa perubahan besar. Misi kami adalah membangun komunitas yang berfokus pada kesadaran lingkungan yang praktis dan solusi sampah yang cerdas.</p>
+      <a href="#feature"><button data-lang-key="about_btn">Tentang Kami</button></a>
+    </div>
+    <img src="css/img/aboutUs.jpg" alt="About Us Image">
+  </section>
+
+  <section class="feature" id="feature">
+    <img src="css/img/partycipate.jpg" alt="Feature Image">
+    <div class="feature-content">
+      <h4 data-lang-key="feature_subtitle">FITUR</h4>
+      <h1 data-lang-key="feature_title">Cara Kami Membantu Anda Daur Ulang</h1>
+      <ul>
+        <li data-lang-key="feature_li1">Panduan proses pengolahan sampah yang mudah digunakan</li>
+        <li data-lang-key="feature_li2">Layanan jemput sampah daur ulang Anda</li>
+        <li data-lang-key="feature_li3">Tips edukasi seputar sampah</li>
+        <li data-lang-key="feature_li4">Insentif untuk setiap partisipasi daur ulang Anda</li>
+      </ul>
+
+      <div class="feature-cards">
+        <div class="card">
+          <h3 data-lang-key="card1_title">Proses Sederhana</h3>
+          <p data-lang-key="card1_desc">Dapatkan panduan jelas tentang pengelolaan sampah langsung dari aplikasi kami. Sederhana, cepat, dan efektif.</p>
+        </div>
+        <div class="card">
+          <h3 data-lang-key="card2_title">Layanan Jemput</h3>
+          <p data-lang-key="card2_desc">Tidak perlu repot. Cukup jadwalkan penjemputan, dan biarkan kami yang mengurus sisanya.</p>
+        </div>
+        <div class="card">
+          <h3 data-lang-key="card3_title">Edukasi dan Informasi</h3>
+          <p data-lang-key="card3_desc">Dapatkan tips praktis dan sumber daya untuk membantu Anda mendaur ulang secara lebih efektif dan bertanggung jawab.</p>
+        </div>
+        <div class="card">
+          <h3 data-lang-key="card4_title">Insentif</h3>
+          <p data-lang-key="card4_desc">Kami percaya kebiasaan baik perlu diapresiasi. Dapatkan insentif dengan berpartisipasi dalam program daur ulang kami.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div><h2>2000+</h2><p data-lang-key="stats_users">Pengguna</p></div>
+    <div><h2>$3.2b+</h2><p data-lang-key="stats_incentives">Insentif</p></div>
+    <div><h2>860k</h2><p data-lang-key="stats_waste">Sampah Tdaur Ulang</p></div>
+    <div><h2>20%</h2><p data-lang-key="stats_reduction">Pengurangan Sampah</p></div>
+  </div>
+
+  <section class="contact" id="contact">
+    <img src="css/img/contact.jpg" alt="Contact Image">
+    <div class="contact-form">
+      <h4 data-lang-key="contact_subtitle">KONTAK</h4>
+      <h1 data-lang-key="contact_title">Hubungi Kami</h1>
+      <input type="text" data-lang-key="contact_ph_name" placeholder="Nama Anda">
+      <input type="email" data-lang-key="contact_ph_email" placeholder="Alamat Email Anda">
+      <input type="tel" data-lang-key="contact_ph_phone" placeholder="Nomor Telepon (Opsional)">
+      <textarea rows="5" data-lang-key="contact_ph_message" placeholder="Pesan Anda"></textarea>
+      <button data-lang-key="contact_btn">Kirim</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <p><img src="css/img/Frame 1984077274.png" alt="Footer Logo"></p>
+      </div>
+      <div class="footer-nav">
+        <a href="#home" data-lang-key="footer_nav_home">Home</a>
+        <a href="#about" data-lang-key="footer_nav_about">Tentang Kami</a>
+        <a href="#feature" data-lang-key="footer_nav_feature">Fitur</a>
+        <a href="#contact" data-lang-key="footer_nav_contact">Kontak</a>
+      </div>
+      <div class="footer-subscribe">
+        <label data-lang-key="footer_label_subscribe">Dapatkan Newsletter Kami</label>
+        <div class="subscribe-form">
+          <input type="email" data-lang-key="footer_ph_subscribe" placeholder="Masukkan email Anda">
+          <button data-lang-key="footer_btn_subscribe">Berlangganan</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 SmartWaste. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#" data-lang-key="footer_terms">Ketentuan</a>
+        <a href="#" data-lang-key="footer_privacy">Privasi</a>
+        <a href="#" data-lang-key="footer_cookies">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
