@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartWaste Management</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">SM♻RT<span>Waste</span></h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#key-feature">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+            <div class="lang-switch">
+                <a href="index.html">ID</a> | <a href="index-en.html" class="active">EN</a>
+            </div>
+            
+            <button class="btn-cta" onclick="window.location.href='loginPage/login.html'">Sign In</button>
+            <button class="btn-signup" onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>  
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-left">
+            <h1 data-lang-key="hero_title">Easy Way to Manage Your Waste</h1>
+            <p data-lang-key="hero_desc">We help you sort, recycle, and manage waste responsibly. Join us in creating a cleaner environment, one step at a time.</p>
+            <a href="#about"><button data-lang-key="hero_btn">Learn More</button></a>
+        </div>
+        <div class="hero-right">
+            <img src="css/img/pexels-julia-m-cameron-6995367.jpg" alt="img1">
+            <img src="css/img/pexels-markusspiske-2559749.jpg" alt="img2">
+            <img src="css/img/pexels-shvetsa-5029859.jpg" alt="img3">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <h4 data-lang-key="about_subtitle">ABOUT US</h4>
+            <h1 data-lang-key="about_title">Make an Impact With Us</h1>
+            <p data-lang-key="about_desc">We believe small daily actions can bring big changes. Our mission is to build a community focused on practical environmental awareness and smart waste solutions.</p>
+            <a href="#key-feature"><button data-lang-key="about_btn">About Us</button></a>
+        </div>
+        <img src="css/img/aboutUs.jpg" alt="About Us Image">
+    </section>
+
+    <section id="key-feature" class="key-feature">
+        <div class="container">
+            <h2>Our Key Features</h2>
+            <p>Explore the core pillars that make SmartWaste a reliable waste management solution.</p>
+
+            <div class="key-grid">
+                <div class="key-card">
+                    <img src="css/img/13.png" alt="Waste Sorting">
+                    <h3>Waste Sorting</h3>
+                    <p>Identify and separate organic, plastic, and electronic waste with our interactive guides.</p>
+                </div>
+
+                <div class="key-card">
+                    <img src="css/img/14.png" alt="Pickup Service">
+                    <h3>Pickup Service</h3>
+                    <p>Schedule waste collection directly from your home using our smart pickup system.</p>
+                </div>
+
+                <div class="key-card">
+                    <img src="css/img/15.png" alt="Rewards & Points">
+                    <h3>Rewards & Points</h3>
+                    <p>Earn points every time you contribute, then exchange them for vouchers or attractive prizes.</p>
+                </div>
+
+                <div class="key-card">
+                    <img src="css/img/16.png" alt="Community Leaderboard">
+                    <h3>Community Leaderboard</h3>
+                    <p>Compete positively with other residents to maintain the cleanliness of the surrounding environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats">
+        <div><h2>2000+</h2><p data-lang-key="stats_users">Users</p></div>
+        <div><h2>$3.2b+</h2><p data-lang-key="stats_incentives">Incentives</p></div>
+        <div><h2>860k</h2><p data-lang-key="stats_waste">Recycled Waste</p></div>
+        <div><h2>20%</h2><p data-lang-key="stats_reduction">Waste Reduction</p></div>
+    </div>
+
+    <section class="contact" id="contact">
+        <img src="css/img/contact.jpg" alt="Contact Image">
+        <div class="contact-form">
+            <h4 data-lang-key="contact_subtitle">CONTACT</h4>
+            <h1 data-lang-key="contact_title">Contact Us</h1>
+            <input type="text" data-lang-key="contact_ph_name" placeholder="Your Name">
+            <input type="email" data-lang-key="contact_ph_email" placeholder="Your Email Address">
+            <input type="tel" data-lang-key="contact_ph_phone" placeholder="Phone Number (Optional)">
+            <textarea rows="5" data-lang-key="contact_ph_message" placeholder="Your Message"></textarea>
+            <button data-lang-key="contact_btn">Submit</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <p><img src="css/img/Frame 1984077274.png" alt="Footer Logo"></p>
+            </div>
+            <div class="footer-nav">
+                <a href="#home" data-lang-key="footer_nav_home">Home</a>
+                <a href="#about" data-lang-key="footer_nav_about">About Us</a>
+                <a href="#key-feature" data-lang-key="footer_nav_feature">Features</a> 
+                <a href="#contact" data-lang-key="footer_nav_contact">Contact</a>
+            </div>
+            <div class="footer-subscribe">
+                <label data-lang-key="footer_label_subscribe">Get Our Newsletter</label>
+                <div class="subscribe-form">
+                    <input type="email" data-lang-key="footer_ph_subscribe" placeholder="Enter your email">
+                    <button data-lang-key="footer_btn_subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 SmartWaste. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#" data-lang-key="footer_terms">Terms</a>
+                <a href="#" data-lang-key="footer_privacy">Privacy</a>
+                <a href="#" data-lang-key="footer_cookies">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
